@@ -1,6 +1,5 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:kw_flutter_qq/kw_flutter_qq.dart';
 
 void main() {
   const MethodChannel channel = MethodChannel('kw_flutter_qq');
@@ -18,6 +17,6 @@ void main() {
   });
 
   test('getPlatformVersion', () async {
-    expect(await KwFlutterQq.platformVersion, '42');
+    expect('await KwFlutterQq.platformVersion', '42');
   });
 }
